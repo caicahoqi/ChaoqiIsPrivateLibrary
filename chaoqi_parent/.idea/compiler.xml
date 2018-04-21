@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="chaoqi_dao" />
+        <module name="chaoqi_entity" />
+        <module name="chaoqi_service" />
+        <module name="chaoqi_web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="chaoqi_dao" target="1.5" />
+      <module name="chaoqi_entity" target="1.5" />
+      <module name="chaoqi_parent" target="1.5" />
+      <module name="chaoqi_service" target="1.6" />
+      <module name="chaoqi_web" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

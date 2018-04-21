@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.chaoqi.springboot_mybatisplus.dao.mapper.MusicInfoMapper" >
+  <resultMap id="BaseResultMap" type="com.chaoqi.springboot_mybatisplus.dao.domain.MusicInfo" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="singer_name" property="singerName" jdbcType="VARCHAR" />
+    <result column="music_size" property="musicSize" jdbcType="VARCHAR" />
+    <result column="music_name" property="musicName" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>
